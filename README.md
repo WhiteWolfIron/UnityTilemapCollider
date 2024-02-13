@@ -4,3 +4,8 @@ Main purpose was to use it in Editor Mode. It should be usable in runtime as wel
 
 Script can generate multiple paths, but was made to generate collider through edges and right now has problem with nesting, so it might be necessary to manually remove excessive paths.
 ![image](https://github.com/WhiteWolfIron/UnityTilemapCollider/assets/19747364/109b509f-e461-474f-a50b-2e554a3256c1)
+
+**How to use**:
+1. Attach TilemapColliderCreator.cs script to GameObject with Tilemap component.
+2. Right click on added script.
+3. From context menu select "CreateColliderFromTilemap".
